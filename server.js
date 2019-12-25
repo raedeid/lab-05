@@ -10,7 +10,7 @@ server.listen(PORT , (request,response) =>{
 })
 
 server.get('/begain',(request , response)=>{
-    response.send(200).send('its work');
+    response.send('its work');
 } )
 
 
