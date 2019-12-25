@@ -13,4 +13,6 @@ server.get('/begain',(request , response)=>{
     response.send(200).send('its work');
 } )
 
+
+
 server.use(express.static(('./puplic')));
